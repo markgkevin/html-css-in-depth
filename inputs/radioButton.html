@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio Button</title>
+    <meta property="og:title" content="Our Menu" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="logo.png" />
+    <meta property="og:url" content="https://littlelemon/" />
+    <meta
+      property="og:description"
+      content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist."
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Little Lemon" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../logo.png" alt="Little Lemeon Logo" />
+    </header>
+    <nav></nav>
+    <main>
+      <h1>User inputs and buttons</h1>
+      <h2>Radio Button</h2>
+      <form action="">
+        <div>
+          <!-- fieldset seperate the groups of radio button w/o fieldset radio buttons group as one -->
+          <fieldset id="size">
+            <label>
+              <input type="radio" value="2" name="size" /> 2 person
+            </label>
+            <label for="">
+              <input type="radio" value="4" name="size" checked /> 4 person
+            </label>
+            <!--checked attributes means this is the default value when the site loads-->
+            <label for="">
+              <input type="radio" value="6" name="size" /> 6 person
+            </label>
+          </fieldset>
+          <!-- name attributes should match with the fieldset id for browser reference which input belongs to -->
+          <fieldset id="location">
+            <label for="">
+              <input type="radio" value="indoor" name="location" checked />
+              Indoors
+            </label>
+            <label for="">
+              <input type="radio" value="outdoor" name="location" /> Outdoors
+            </label>
+          </fieldset>
+          <button type="submit">Book Table</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
