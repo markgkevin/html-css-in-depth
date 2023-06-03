@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+header,
+nav,
+main,
+section,
+article,
+figure,
+figcaption,
+footer {
+  margin-bottom: 20px;
+}
+header {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+nav {
+  background-color: #d0d0d0;
+  padding: 10px;
+}
+main {
+  background-color: #ffffff;
+  padding: 20px;
+}
+section {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.hero {
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+}
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
